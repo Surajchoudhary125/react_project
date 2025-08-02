@@ -1,12 +1,16 @@
 import React from 'react'
 import Sidebar from './components/Sidebar/sidebar.jsx'
+import Main from './components/Main/main.jsx'
+import './App.css'
 
 const App = () => {
   return (
-    <div>
+    <div className="app" >
       <Sidebar />
-   </div>
+      <Main />
+    </div>
   )
 }
 
 export default App
+
